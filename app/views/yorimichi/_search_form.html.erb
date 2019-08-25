@@ -1,0 +1,10 @@
+<%= form_tag do %>
+  <label for="departure" class="from-label">出発地</label>
+  <%= text_field_tag :departure, '', size: 25 %>
+  <br><br>
+  <label for="destination" class="from-label">目的地</label>
+  <%= text_field_tag :destination, '', size: 25 %>
+  <br><br>
+  <%= submit_tag '出かける', class: "btn btn-success" %>
+<% end %>
+

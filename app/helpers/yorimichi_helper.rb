@@ -1,0 +1,2 @@
+module YorimichiHelper
+end
